@@ -15,3 +15,11 @@ To build the project then run:
 ```
 make
 ```
+
+Then run the things!
+
+```
+bin/server
+bin/client
+curl -XPOST localhost:7778/v1/hello -d '{"greeting": "something"}'
+```

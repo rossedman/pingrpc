@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/rossedman/grpc-test/api"
+	"github.com/rossedman/pingrpc/api"
 	"google.golang.org/grpc"
 )
 
